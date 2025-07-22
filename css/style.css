@@ -1,0 +1,48 @@
+@import url("/css/charte_graphique.css");
+@import url("/css/footer.css");
+@import url("/css/header.css");
+@import url("/css/reset.css");
+
+/* Accueil*/
+section.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 100px;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(/img/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+section.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #0000006e;
+    z-index: 1;
+    
+    
+}
+section.hero> * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+section.hero div.container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px 20px;
+    height: 100%;
+    width: 70%;
+}
+
+
+/* Accueil*/
