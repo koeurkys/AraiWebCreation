@@ -102,10 +102,18 @@ a:hover {
   padding: 10px 15px;
   border: 2px solid var(--color-border);
   border-radius: 40px;
-  transition: border-color 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 .btn:hover {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   border-color: var(--color-secondary);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);       /* fond blanc transparent */
+  backdrop-filter: blur(10px);               /* effet de flou derrière */
+  -webkit-backdrop-filter: blur(10px);       /* compatibilité Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* bordure légère */                      /* coins arrondis */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);  /* ombre subtile */
 }
 
