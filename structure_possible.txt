@@ -1,0 +1,42 @@
+mon-site/
+│
+├─ index.html                  ← page d'accueil
+│
+├─ produits/
+│   └─ index.html              ← page "Produits"
+│
+├─ contact/
+│   └─ index.html              ← page "Contact"
+│
+├─ apropos/
+│   └─ index.html              ← page "À propos"
+│
+├─ style/
+│   ├─ base.css
+│   ├─ layout.css
+│   ├─ components.css
+│   ├─ pages/
+│   │   ├─ home.css
+│   │   ├─ contact.css
+│   │   └─ produits.css
+│   └─ main.css 
+│
+├─ js/
+│   ├─ app.js
+│   ├─ pages/
+│   │   ├─ home.js
+│   │   ├─ contact.js
+│   │   ├─ produits.js
+│   │   └─ apropos.js
+│   ├─ components/
+│   │   ├─ header.js
+│   │   ├─ footer.js
+│   │   └─ productCard.js
+│   ├─ utils/
+│   │   └─ domUtils.js
+│   └─ index.js 
+│
+└─ components/
+    ├─ header.html
+    ├─ footer.html
+    └─ productCard.html

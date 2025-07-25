@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--font-size-base);
+  border-radius: var(--radius-md);
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  box-shadow: var(--shadow-light);
+  transition: var(--transition-fast);
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+  box-shadow: var(--shadow-medium);
+}
+
+* {
+  font-family: var(--font-family-base);
+  text-align: center;
+  letter-spacing: 1px;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-size: var(--font-size-title);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+h2 {
+  font-size: var(--font-size-subtitle);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+h3 {
+  font-size: var(--font-size-text);
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-bold);
+}
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-secondary);
+}
+
+.btn {
+  color: var(--color-primary);
+  padding: 10px 15px;
+  border: 2px solid var(--color-border);
+  border-radius: 40px;
+  transition: 0.3s ease-in;
+}
+.btn:hover {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);       /* fond blanc transparent */
+  backdrop-filter: blur(10px);               /* effet de flou derrière */
+  -webkit-backdrop-filter: blur(10px);       /* compatibilité Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* bordure légère */                      /* coins arrondis */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);  /* ombre subtile */
+}
+

@@ -1,0 +1,43 @@
+.container-product {
+    padding: 40px;
+    display: flex;
+    background-color: red;
+    min-height: 100vh;
+}
+.container-product p {
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    background-color: yellow;
+    text-align: start;
+    
+}
+.container-img {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    background-color: blue;
+}
+.container-img img {
+    position: absolute;
+    width: 200px;
+    top: 20%;
+    left: 0%;
+}
+.container-img .main {
+    width: 350px;
+    left: 10%;
+}
+.container-img .secondary {
+    width: 150px;
+    top: 30%;
+    left: 10%;
+}
+.container-img .glacon {
+    top: 60%;
+    left: 45%;
+}
